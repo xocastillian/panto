@@ -1,0 +1,50 @@
+.benifits {
+	padding: 120px 0;
+}
+
+.benifits__grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.benifits__title {
+	max-width: 242px;
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.benifit__title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.benifit__text {
+	font-size: 16px;
+	font-style: normal;
+	line-height: 185%;
+	max-width: 284px;
+	margin-bottom: 14px;
+}
+
+.read-more {
+	display: inline-flex;
+	gap: 13px;
+	align-items: center;
+	color: $accent;
+	font-size: 14px;
+	font-weight: 500;
+
+	&::after {
+		content: url(/images/icons/grommet-icons_form-next-link.svg);
+		height: 24px;
+	}
+
+	&--lg {
+		font-size: 18px;
+	}
+}
